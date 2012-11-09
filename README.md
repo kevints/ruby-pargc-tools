@@ -18,7 +18,7 @@ instructions below.
 
 On Ubuntu 12.04 you can install `perf` with
 
-    sudo apt-get install linux-tools-common linux-tools-`uname -r`
+    sudo apt-get install linux-tools-common linux-tools-`uname -r | sed 's/-generic//'`
 
 To enable better samples on Linux use
 
