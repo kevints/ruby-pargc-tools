@@ -16,3 +16,8 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Profiling artifacts
+gmon.out
+perf.data
+perf.data.*
