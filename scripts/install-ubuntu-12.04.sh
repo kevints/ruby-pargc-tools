@@ -3,6 +3,7 @@ set -eu
 
 required_apt_packages=(
   build-essential
+  ccache
   curl
   graphviz
   libc6-dbg

@@ -53,6 +53,12 @@ or use
     curl -o ~/bin/gprof2dot.py http://gprof2dot.jrfonseca.googlecode.com/git/gprof2dot.py && \
     chmod +x ~/bin/gprof2dot.py
 
+### ccache
+
+ccache makes compile speeds tolerable. To install it on Ubuntu 12.04 use
+
+    sudo apt-get install ccache
+
 ### debug symbols
 
 To install debug symbols on Ubuntu 12.04 use
