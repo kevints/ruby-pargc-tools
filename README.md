@@ -7,7 +7,7 @@ Dependencies
 ------------
 
 All these scripts expect to run on Linux and were tested on Ubuntu
-12.04. You must have `rvm`, `perf`, `dot`, and `gprof2dot.py` on your
+12.04. You must have `ccache`, `dot`, `gprof2dot.py`, `perf`, and `rvm` on your
 `PATH`.  For more useful output install debug symbols as well.
 
 To install dependencies on Ubuntu 12.04 you can run
